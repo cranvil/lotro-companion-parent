@@ -77,36 +77,7 @@
 				</excludes>
 			</testResource>
 		</testResources>
-		<finalName>delta-${name}-${version}</finalName>
-		<pluginManagement>
-			<plugins>
-				<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
-				<plugin>
-					<groupId>org.eclipse.m2e</groupId>
-					<artifactId>lifecycle-mapping</artifactId>
-					<version>1.0.0</version>
-					<configuration>
-						<lifecycleMappingMetadata>
-							<pluginExecutions>
-								<pluginExecution>
-									<pluginExecutionFilter>
-										<groupId>org.codehaus.mojo</groupId>
-										<artifactId>javancss-maven-plugin</artifactId>
-										<versionRange>[2.0,)</versionRange>
-										<goals>
-											<goal>report</goal>
-										</goals>
-									</pluginExecutionFilter>
-									<action>
-										<ignore />
-									</action>
-								</pluginExecution>
-							</pluginExecutions>
-						</lifecycleMappingMetadata>
-					</configuration>
-				</plugin>
-			</plugins>
-		</pluginManagement>
+		<finalName>delta-${project.name}-${project.version}</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -116,6 +87,10 @@
 					<target>1.5</target>
 				</configuration>
 			</plugin>
+			<plugin>
+						<artifactId>maven-project-info-reports-plugin</artifactId>
+						<version>2.9</version>
+				</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>findbugs-maven-plugin</artifactId>
