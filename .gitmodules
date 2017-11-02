@@ -1,0 +1,15 @@
+[submodule "lotro-companion"]
+	path = lotro-companion
+	url = https://github.com/dmorcellet/lotro-companion.git
+[submodule "lotro-core"]
+	path = lotro-core
+	url = https://github.com/dmorcellet/lotro-core.git
+[submodule "delta-common"]
+	path = delta-common
+	url = https://github.com/dmorcellet/delta-common.git
+[submodule "delta-common-ui"]
+	path = delta-common-ui
+	url = https://github.com/dmorcellet/delta-common-ui.git
+[submodule "lotro-maps"]
+	path = lotro-maps
+	url = https://github.com/dmorcellet/lotro-maps.git
