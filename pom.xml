@@ -6,6 +6,13 @@
 	<version>1.0</version>
 	<packaging>pom</packaging>
 	<name>delta4j</name>
+  <modules>
+    <module>delta-common</module>
+    <module>delta-common-ui</module>
+    <module>lotro-companion</module>
+    <module>lotro-core</module>
+    <module>lotro-maps</module>
+  </modules>
 	<distributionManagement>
 		<repository>
 			<id>libs-release-local</id>
