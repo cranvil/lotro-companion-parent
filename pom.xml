@@ -13,13 +13,6 @@
     <module>lotro-core</module>
     <module>lotro-maps</module>
   </modules>
-  <distributionManagement>
-    <repository>
-      <id>libs-release-local</id>
-      <name>libs-release-local</name>
-      <url>http://localhost:8081/artifactory/libs-release-local</url>
-    </repository>
-  </distributionManagement>
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -40,16 +33,6 @@
       <scope>compile</scope>
     </dependency>
   </dependencies>
-  <repositories>
-    <repository>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <id>ext-release-local</id>
-      <name>ext-release-local</name>
-      <url>http://localhost:8081/artifactory/ext-release-local</url>
-    </repository>
-  </repositories>
   <build>
     <resources>
       <resource>
