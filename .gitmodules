@@ -13,3 +13,15 @@
 [submodule "lotro-maps"]
 	path = lotro-maps
 	url = https://github.com/dmorcellet/lotro-maps.git
+[submodule "lotro-companion-distrib"]
+	path = lotro-companion-distrib
+	url = https://github.com/dmorcellet/lotro-companion-distrib.git
+[submodule "lotro-items-db"]
+	path = lotro-items-db
+	url = https://github.com/dmorcellet/lotro-items-db.git
+[submodule "lotro-item-icons-db"]
+	path = lotro-item-icons-db
+	url = https://github.com/dmorcellet/lotro-item-icons-db.git
+[submodule "lotro-relics"]
+	path = lotro-relics
+	url = https://github.com/dmorcellet/lotro-relics.git
